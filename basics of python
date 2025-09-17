@@ -1,0 +1,136 @@
+#python program to print your name
+print("hema latha")
+
+#to print name by getting input from the user
+name=input("Enter your name")
+print("your name:",name)
+
+#to print two numbers by getting input from the user
+num1=input("enter first number")
+num2=input("enter second number")
+print("first number:",num1)
+print("second number:",num2)
+
+#to add two numbers by getting input from the user
+num1=int(input("enter first number"))
+num2=int(input("enter second number"))
+sum=num1+num2
+print("addition of two numbers:",sum)
+
+#to concadenate first and and last name
+a=input("enter the first name")
+b=input("enter the second name")
+name=a+b
+print("your full name is",name)
+
+#swap 2 numbers without using third variable
+a=10;
+b=20;
+a=a+b;
+b=a-b
+a=a-b
+print("a:",a)
+print("b:",b)
+
+#swap 2 numbers using third variable
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print("after swapping:",a)
+print("after swapping:",b)
+
+#to print primitive datatypes
+my_int=10
+my_float=2.67
+my_bool=False
+print("integer is:",my_int)
+print("float is:",my_float)
+print("bolean is:",my_bool)
+
+#non primitive datatypes
+a=[1,2,3]
+b=(4,5,6)
+c={1,1,2,3}
+dict_1={'one:',1,'two:',2}
+print(a)
+print(b)
+print(c)
+print(dict_1)
+
+#to find square of a number by getting input from the user
+a=int(input("enter  number"))
+b=a**2
+print(b)
+
+#to print average of three numbers
+a=int(input("enter the first number"))
+b=int(input("enter the second number"))
+c=int(input("enter the third number"))
+sum=a+b+c
+avg=sum/3
+print("average of 3 numbers:",avg)
+
+#to print a number by multiplying with 10 for user given input
+a=int(input("enter a number"))
+result=a*10
+print("the result is:",result)
+
+#to convert minutes to seconds
+minutes=int(input("enter time in minutes:"))
+seconds=minutes*60
+print("in seconds:",seconds)
+
+#to multiply floating points
+num1=float(input("enter first number"))
+num2=float(input("enter second number"))
+product=num1*num2
+print("the product is:",product)
+
+#to find largest of three numbers
+a=int(input("enter the first number"))
+b=int(input("enter the second number"))
+c=int(input("enter the third number")) 
+largest=max(a,b,c)
+print("the largest of 3 numbers is:",largest)
+
+#to find the sum of first n natural numbers
+n=int(input("enter the value"))
+sum=n*(n+1)//2
+print("the value:",sum)
+
+#arithmetic operators
+a=10
+b=20
+print("addition of two numbers:",a+b)
+print("subtraction of two numbers:",a-b)
+print("multiplication of two numbers:",a*b)
+print("division of two numbers:",a/b)
+
+#comparision operators
+a=10
+b=20
+print("a==b:",a==b)
+print("a!=b:",a!=b)
+print("a>b:",a>b)
+print("a<b:",a<b)
+print("a<=b:",a<=b)
+print("a>=b:",a>=b)
+
+#logical operators
+a=10
+b=5
+c=50
+print(a>b and a<c)
+print(a>b or a>c)
+print(not(a>b))
+
+#to print +ve,-ve or zero
+num=float(input("enter a number:"))
+if num>0:
+    print("positive")
+if num<0:
+    print("negative")
+else:
+    print("zero")
