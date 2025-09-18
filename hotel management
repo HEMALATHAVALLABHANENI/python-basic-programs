@@ -1,0 +1,149 @@
+print("WELCOME TO INDIAN KITCHEN SOUTHERN RESTUARANT")
+print("Choose menu:")
+print("1.TIFFIN ITEMS")
+print("2.LUNCH MEALS")
+print("3.JUICE ITEMS")
+print("4.SNACKS")
+print("5.DISPLAY ALL YOUR MENU")
+print("6.FOOD PRICES")
+print("7.EXIT")
+preference=int(input("enter your preference:"))
+if preference==1:
+    print("TIFFIN ITEMS")
+    print("CHOOSE ITEMS: 1.DOSA 2.IDLY 3.VADA 4.CHAPATI")
+    item=int(input("enter the item serial number of the item:"))
+    if item==1:
+        print("DOSA")
+        print("PRICE:50")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=50*quantity
+        print("Total price:",price)
+    elif item==2:
+        print("IDLY")
+        print("PRICE:150")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=150*quantity
+        print("Total price:",price)
+    elif item==3:
+        print("VADA")
+        print("PRICE:75")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=75*quantity
+        print("Total price:",price)
+    else:
+        print("Items unavailable")
+elif preference==2:
+    print("LUNCH MEALS")
+    print("1.Full meals 2.Plain rice 3.Veg-meals 4.Curd rice")
+    item=int(input("enter the item serial number of the item:"))
+    if item==1:
+        print("Full meals")
+        print("PRICE:250")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=250*quantity
+        print("Total price:",price)
+    elif item==2:
+        print("Plain rice")
+        print("PRICE:70")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=70*quantity
+        print("Total price:",price)
+    elif item==3:
+        print("Veg-meals")
+        print("PRICE:175")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=175*quantity
+        print("Total price:",price)
+    else:
+        print("Items unavailable")
+elif preference==3:
+    print("JUICE ITEMS")
+    print("1.Water melon 2.Grape 3.Pomegranate 4.Banana 5.Pineapple 6.Apple 7.Sapota 8.Kiwi")
+    item=int(input("enter the item serial number of the item"))
+    if item==1:
+        print("Watermelon")
+        print("PRICE:60")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=60*quantity
+        print("Total price:",price)
+    elif item==2:
+        print("Grape")
+        print("PRICE:70")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=70*quantity
+        print("Total price:",price)
+    elif item==3:
+        print("Pomegranate")
+        quantity=int(input("enter quantity"))
+        print("Quantity:",quantity)
+        price=75*quantity
+        print("Total price:",price)
+    elif item==5:
+        print("Pineapple")
+        print("PRICE:75")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=75*quantity
+        print("Total price:",price)
+    elif item==6:
+        print("Apple")
+        print("PRICE:65")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=65*quantity
+        print("Total price:",price)
+    elif item==175:
+        print("Kiwi")
+        print("PRICE:100")
+        quantity=int(input("enter quantity"))
+        print("Quantity:",quantity)
+        price=100*quantity
+        print("Total price:",price)
+    else:
+        print("Items unavailable")
+elif preference==4:
+    print("SNACKS")
+    print("1.French fries 2.Chicken pakoda 3.Pastry 4.Cup cake ")
+    item=int(input("enter the item serial number of the item:"))
+    if item==1:
+        print("French fries")
+        print("PRICE:250")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=250*quantity
+        print("Total price:",price)
+    elif item==2:
+        print("Chichen pakoda")
+        print("PRICE:270")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=270*quantity
+        print("Total price:",price)
+    elif item==3:
+        print("Pastry")
+        print("PRICE:175")
+        quantity=int(input("enter quantity:"))
+        print("Quantity:",quantity)
+        price=175*quantity
+        print("Total price:",price)
+    else:
+        print("Items unavailable")
+elif preference==5:
+    print("DISPLAY ALL YOUR MENU")
+    print("TIFFIN ITEMS: 1.DOSA 2.IDLY 3.VADA 4.CHAPATI "
+    "LUNCH MEALS:1.Full meals 2.Plain rice 3.Veg-meals 4.Curd rice" 
+    "JUICE ITEMS: 1.Water melon 2.Grape 3.Pomegranate 4.Banana 5.Pineapple 6.Apple 7.Sapota 8.Kiwi"
+    "SNACKS: 1.French fries 2.Chicken pakoda 3.Pastry 4.Cup cake")
+elif preference==6:
+    print("FOOD PRICES")
+    print("Ranges from 50/- to 1000/- only")
+else:
+    print("EXIT")
